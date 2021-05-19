@@ -74,7 +74,7 @@ $(document).ready(function () {
         }
         $("#pindateinput").hide();
         $(".hidden").append("<a class='btn teal' style='margin:0 3%;'  onclick='window.location.reload(true)'>Search On New Date/ Pincode</a>")
-        $(".pincode").html("<h6 class='container'>Showing Result of pin - " + pincode + " on date of " + date + " . "+ x.length +"  Vaccinetion center Found .<br> All data provied by <b>CoWin</b></h6>")
+        $(".pincode").html("<h6 class='container'>Showing Result of pin - " + pincode + " on date of " + date + " . "+ x.length +"  Vaccinetion center Found .<br> All data provied by <b>CoWin</b>.Developed by <a href='https://twitter.com/ghsourav'>GhSourav</a></h6>")
       }
     });
   });
