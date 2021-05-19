@@ -1,10 +1,7 @@
 .btn {
     width: 100%;
 }
-
-.footer-copyright {
-    bottom: 0% !important;
-    margin-top: 5%;
-    width: 100%;
-    position: fixed;
+.card{
+    padding: 5%;
+    margin: 6% 0;
 }

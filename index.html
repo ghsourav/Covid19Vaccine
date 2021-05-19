@@ -11,7 +11,7 @@
 <nav class="nav-extended teal">
     <div class="nav-content">
         <ul class="tabs tabs-transparent">
-            <li class="tab"><a href="#home">Home</a></li>
+            <li class=" tab"><a class="active" href="#home">Home</a></li>
             <li class="tab disabled"><a href="#upcoming">Upcoming Availability(Coming Soon)</a></li>
         </ul>
     </div>
@@ -22,10 +22,12 @@
 
     <div id="home" class="col s12">
         <section id="pindateinput" class="container">
-            <form action="#">
+            <form action="#" class="card" >
             <div class="input-field col s12">
                 <i class="material-icons prefix">date_range</i>
                 <input type="text" value="'dd-mm-yyyy'" class="datepicker" id="date">
+                <label for="date">Enter Date</label>
+
             </div>
 
 
@@ -40,7 +42,7 @@
         </section>
 
 
-        <table class="responsive-table centered highlight striped hide">
+        <table class="responsive-table  centered card striped hide">
             <p class="pincode"></p>
 
             <thead>
@@ -79,10 +81,13 @@
         </div>
     </div>
     --->
+
+    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/Apps.js"></script>
+    <script src="./js/Apps2.js"></script>
 </body>
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
