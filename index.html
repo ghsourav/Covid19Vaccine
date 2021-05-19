@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccine-Search By Pincode</title>
+</head>
+
+<nav class="nav-extended teal">
+    <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#home">Home</a></li>
+            <li class="tab disabled"><a href="#upcoming">Upcoming Availability(Coming Soon)</a></li>
+        </ul>
+    </div>
+</nav>
+
+<body>
+
+
+    <div id="home" class="col s12">
+        <section id="pindateinput" class="container">
+            <form action="#">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">date_range</i>
+                <input type="text" value="'dd-mm-yyyy'" class="datepicker" id="date">
+            </div>
+
+
+            <div class="input-field ">
+                <i class="material-icons prefix">confirmation_number</i>
+                <input type="number" id="pincode" maxlength="6" placeholder="Search by Pincode" >
+            </div>
+
+
+            <a class="btn teal disabled" id="search">Search</a>
+            </form>
+        </section>
+
+
+        <table class="responsive-table striped hide">
+            <p class="pincode"></p>
+
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Block</th>
+                    <th>District</th>
+                    <th>Date</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Fees</th>
+                    <th>Available Dose</th>
+                    <th>Available First Dose</th>
+                    <th>Available Second Dose</th>
+                    <th>Minimum Age Limit</th>
+                    <th>Vaccine name</th>
+
+                </tr>
+            </thead>
+
+            <tbody id="devs">
+
+
+            </tbody>
+        </table>
+        <div class="hidden container"></div>
+    </div>
+
+
+    <!--
+    <div class="footer-copyright teal">
+        <div class="container center">
+            Develop By <a class="white-text" target="_blank" href="https://www.linkedin.com/in/ghsourav/">Ghsourav</a> .
+            All data provied by <a target="_blank" class="white-text" href="https://www.cowin.gov.in/home">Co-Win</a>
+        </div>
+    </div>
+    --->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/Apps.js"></script>
+</body>
+
+
+<style>
+    .btn {
+        width: 100%;
+    }
+
+    .footer-copyright {
+        bottom: 0% !important;
+        margin-top: 5%;
+        width: 100%;
+        position: fixed;
+    }
+</style>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+</html>
