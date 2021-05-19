@@ -73,7 +73,7 @@ $(document).ready(function () {
           M.toast({ html: 'Sorry, No Vaccinetion center Found', classes: 'yellow rounded' });
         }
         $("#pindateinput").hide();
-        $(".hidden").append("<a class='btn teal' style='margin:0 3%;' href='/'>Search On New Date/ Pincode</a>")
+        $(".hidden").append("<a class='btn teal' style='margin:0 3%;'  onclick='window.location.reload(true)'>Search On New Date/ Pincode</a>")
         $(".pincode").html("<h6 class='container'>Showing Result of pin - " + pincode + " on date of " + date + " . "+ x.length +"  Vaccinetion center Found .<br> All data provied by <b>CoWin</b></h6>")
       }
     });
