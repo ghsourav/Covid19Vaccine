@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   let output = ""
   var pincode = ""
-  $('.datepicker').datepicker({ "format": 'dd-mm-yyyy', "showDaysInNextAndPreviousMonths":'true' });
+  $('.datepicker').datepicker({ "format": 'dd-mm-yyyy', "showDaysInNextAndPreviousMonths":'false' });
 
   $('.tooltipped').tooltip();
 
