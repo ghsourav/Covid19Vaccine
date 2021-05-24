@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   let output = ""
   var pincode = ""
-  $('.datepicker').datepicker({ "format": 'dd-mm-yyyy', "showDaysInNextAndPreviousMonths":false,"showClearBtn":true,"autoClose":true,"firstDay":1 });
+  $('.datepicker').datepicker({ "format": 'dd-mm-yyyy',"minDate":'20-05-2021', "showDaysInNextAndPreviousMonths":false,"showClearBtn":true,"autoClose":true,"firstDay":1 });
 
   $('.tooltipped').tooltip();
 
